@@ -41,7 +41,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    watchFiles: path.join(__dirname, 'src', 'public'),
+    watchFiles: path.join(__dirname, 'src', 'public', 'index.html'),
     port: 9000,
     historyApiFallback: true,
   },
